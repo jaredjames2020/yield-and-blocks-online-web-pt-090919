@@ -1,5 +1,5 @@
 require 'pry'
-def hello_t
+def hello_t(array)
   binding.pry
 end
 
