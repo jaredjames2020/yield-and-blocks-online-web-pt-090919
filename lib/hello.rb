@@ -5,7 +5,8 @@
 # # call your method here!
 
 def hello_t(array)
-  i = 0
+  if block_given?
+    i = 0
   
   while i < array.length
     yield array[i]
