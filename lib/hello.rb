@@ -1,6 +1,5 @@
-require 'pry'
-def hello_t(array)
-  binding.pry
+def hello_t
+
 end
 
 # call your method here!
